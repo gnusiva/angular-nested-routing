@@ -1,1 +1,11 @@
-<p>html works!</p>
+
+<div class="d-flex h-100 w-100">
+    <div class="border-right d-flex flex-column px-3 py-2">
+        <div class="mb-3 cursor-pointer" routerLink="image">Imgage</div>
+        <div class="mb-3 cursor-pointer" routerLink="paragraph">Paragraph</div>
+        <div class="mb-3 cursor-pointer" routerLink="heading">Heading</div>
+    </div>
+    <div class="flex-grow-1">
+        <router-outlet></router-outlet>
+    </div>
+</div>
