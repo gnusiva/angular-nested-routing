@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CssRoutingModule } from './css-routing.module';
+import { CssComponent } from './css.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [CssComponent],
   imports: [
     CommonModule,
     CssRoutingModule
